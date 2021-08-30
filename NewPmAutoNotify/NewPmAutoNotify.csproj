@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+	
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NSelene" Version="1.0.0-alpha09" />
+    <PackageReference Include="WebDriverManager" Version="2.11.3" />
+  </ItemGroup>
+
+</Project>
